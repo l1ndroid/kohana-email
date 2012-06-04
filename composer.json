@@ -1,0 +1,15 @@
+{
+	"name": "widerplan/email",
+	"description": "Kohana Email Port",
+	"homepage": "https://github.com/kiddivouchers/kohana_email/",
+	"license": "Proprietary",
+	"authors": [
+		{
+			"name": "Wider Plan",
+			"email": "development@widerplan.com"
+		}
+	],
+	"require": {
+		"swiftmailer/swiftmailer": "4.1.*@stable"
+	}
+}

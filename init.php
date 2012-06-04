@@ -1,4 +1,9 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-// Autoloading for Swiftmailer
-require Kohana::find_file('vendor/swiftmailer', 'lib/swift_required');
+$vendor     = __DIR__.'/vendor';
+$autoloader = "$vendor/swiftmailer/swiftmailer/lib/swift_required";
+
+if (file_exists($autoloader))
+{
+	require $autoloader;
+}
